@@ -4,7 +4,7 @@
 #include <curl/curl.h>
 #include <cjson/cJSON.h>
 
-#define API_URL "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyC0PjI51IXezzgqY5L1Ky7Tjy23VsbyrsY"
+#define API_URL "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=<yourapikeyhere>"
 
 size_t WriteCallback(void *contents, size_t size, size_t nmemb, char *userp) {
     strncat(userp, contents, size * nmemb);
