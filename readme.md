@@ -33,3 +33,9 @@ This guide explains how to compile gemini.c into an executable and install it in
 * If you encounter errors during compilation, ensure you have correctly configured the paths and installed the necessary libraries.
 
 Now you should have a gemini executable in your local/bin directory, ready to use.
+
+
+## Future Goals
+   - Text With Proper Formatting Implementation
+   - Image Querry
+   - Direct Command Execution 
