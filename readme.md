@@ -26,6 +26,70 @@ This guide explains how to compile gemini.c into an executable and install it in
     ```bash
     cp gemini /local/bin
     ```
+3. **For Better Text Display**
+
+### 1. Fish Shell
+
+**Create or edit the function**:
+```fish
+nano ~/.config/fish/functions/gemini.fish
+```
+
+**Add the following code**:
+```fish
+function gemini
+    command gemini $argv | glow
+end
+```
+
+**Save and exit**, then reload the functions:
+```fish
+functions --no-reload
+```
+
+### 2. Bash
+
+**Open your Bash configuration file** (`.bashrc` or `.bash_profile`):
+```bash
+nano ~/.bashrc
+```
+or 
+```bash
+nano ~/.bash_profile
+```
+
+**Add the following function**:
+```bash
+gemini() {
+    command gemini "$@" | glow
+}
+```
+
+**Save and exit**, then apply the changes:
+```bash
+source ~/.bashrc   # or source ~/.bash_profile
+```
+
+### 3. Zsh
+
+**Open your Zsh configuration file** (`.zshrc`):
+```bash
+nano ~/.zshrc
+```
+
+**Add the following function**:
+```zsh
+gemini() {
+    command gemini "$@" | glow
+}
+```
+
+**Save and exit**, then apply the changes:
+```bash
+source ~/.zshrc
+```
+
+
 
 **Important:**
 
