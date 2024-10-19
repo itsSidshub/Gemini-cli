@@ -7,6 +7,7 @@ This guide explains how to compile gemini.c into an executable and install it in
 * **C Compiler:** You need a C compiler like GCC.
 * **Libjson:**  Download and install the libjson library. You can find it at [https://github.com/json-c/json-c](https://github.com/json-c/json-c).
 * **Libcurl:** Download and install the libcurl library. You can find it at [https://curl.se/](https://curl.se/).
+*  **glow**
 
 **Steps:**
 0. get a api key form [https://aistudio.google.com/app/apikey](here)
