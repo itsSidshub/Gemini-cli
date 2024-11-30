@@ -101,5 +101,4 @@ Now you should have a gemini executable in your local/bin directory, ready to us
 
 
 ## Future Goals
-   - Image Querry
-   - Direct Command Execution 
+ai auto completion for terminal 
